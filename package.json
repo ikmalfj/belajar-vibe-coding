@@ -1,16 +1,17 @@
 {
   "name": "belajar-vibe-coding",
-  "module": "src/index.ts",
+  "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "bun --watch run src/index.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio"
   },
   "devDependencies": {
-    "@types/bun": "latest",
+    "@types/bun": "^1.4.0",
     "drizzle-kit": "^0.31.10"
   },
   "peerDependencies": {

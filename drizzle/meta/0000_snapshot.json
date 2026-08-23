@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "mysql",
-  "id": "d481ee0d-e02f-4951-b892-bc185f32b9c3",
+  "id": "2d1c824d-d38b-4047-8c0b-732b3ca77ff7",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "users": {
@@ -16,14 +16,14 @@
         },
         "name": {
           "name": "name",
-          "type": "varchar(255)",
+          "type": "varchar(256)",
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false
         },
         "email": {
           "name": "email",
-          "type": "varchar(255)",
+          "type": "varchar(256)",
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false
