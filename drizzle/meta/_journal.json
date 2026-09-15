@@ -15,6 +15,13 @@
       "when": 1787464048708,
       "tag": "0001_complex_nicolaos",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1789447792290,
+      "tag": "0002_next_darkstar",
+      "breakpoints": true
     }
   ]
 }
